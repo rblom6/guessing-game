@@ -37,9 +37,9 @@ public class GuessingGame {
 
 
 	public int myGuessIs() {		
-                //if possibleGuesses size is zero return -1, and
-                //if possibleGuesses size != zero return a random
-                //number from possibleGuesses 
+                // if possibleGuesses size is zero return -1, and
+                // if possibleGuesses size != zero return a random
+                // number from possibleGuesses 
                 if(possibleGuesses.size() == 0){
                         return -1;
                 }else{
